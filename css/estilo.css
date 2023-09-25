@@ -1,0 +1,136 @@
+body{
+    background: #000;
+    width: 700px;
+    margin: auto;
+}
+
+h1{
+    color: #ff0;
+}
+
+#principal{
+    background: #777;
+}
+
+.contenedor{
+    width: 680px;
+    border: 1px solid #ff0000;
+    margin-top: 15px;
+    display: flex;
+    
+}
+
+.contenedor>div>img{
+    background: #777;
+    color: #777;
+    width: 120px;
+    height: 100px;
+    font-size: 2em;
+    margin: 4px;
+}
+
+.contenedor>div>p{
+    background-color: #d8fd98;
+    margin: 20px;
+}
+
+#caja1{
+    flex-direction: row
+}
+
+#caja1>div{
+    background-color: #8a2be2;
+}
+
+/*---------------------*/
+
+#caja2{
+    flex-direction: row-reverse;
+}
+
+#caja2>div{
+    background-color: chartreuse;
+}
+
+/*------*/
+
+#caja3{
+    width: 130px;
+    flex-direction: column;
+}
+
+#caja3>div{
+    background-color: #fbba6f;
+}
+
+#caja4{
+    width: 130px;
+    flex-direction: column-reverse;
+}
+
+#caja4>div{
+    background-color: #fbba6f;
+}
+
+#caja5{
+    width: 130px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#caja5>div{
+    background-color: #fbba6f;
+}
+
+#caja6{
+    width: 130px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#caja6>div{
+    background-color: #fbba6f;
+}
+
+#caja7{
+    
+    justify-content: flex-start;
+}
+
+#caja7>div{
+    background-color: #fbba6f;
+}
+
+#caja8{
+    
+    justify-content: flex-end;
+}
+
+#caja8>div{
+    background-color: #fbba6f;
+}
+#caja9{
+    
+    justify-content: center;
+}
+
+#caja9>div{
+    background-color: #fbba6f;
+}
+
+#caja10{
+    
+    justify-content: space-between;
+}
+
+#caja10>div{
+    background-color: #fbba6f;
+}
+#caja11{
+    
+    justify-content: space-around;
+}
+
+#caja11>div{
+    background-color: #fbba6f;
+}
